@@ -46,6 +46,7 @@ while True:
         if i.type == pg.QUIT:
             exit()
         # спавн кубиков
+        print("За ёжиков")
         if i.type == pg.MOUSEBUTTONDOWN:
             if i.button == 1:
                 create_square(space, i.pos)
