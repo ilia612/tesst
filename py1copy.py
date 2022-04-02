@@ -47,7 +47,7 @@ while True:
     for i in pg.event.get():
         if i.type == pg.QUIT:
             exit()
-        # спавн кубиков
+       
         print("За ёжиков")
         if i.type == pg.MOUSEBUTTONDOWN:
             if i.button == 1:
