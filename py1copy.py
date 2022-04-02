@@ -24,10 +24,12 @@ segment_shape3 = pymunk.Segment(space.static_body, (WIDTH, 2), (WIDTH, HEIGHT), 
 space.add(segment_shape3)
 segment_shape3.elasticity = el_shape
 segment_shape3.friction = sk_shape
+'''
 segment_shape4 = pymunk.Segment(space.static_body, (2, 2), (2, HEIGHT), 26)
 space.add(segment_shape4)
 segment_shape4.elasticity = el_shape
 segment_shape4.friction = sk_shape
+'''
 body = pymunk.Body()
 def create_square(space, pos):
     u=randint(20,100)
